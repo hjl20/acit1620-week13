@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>DOM manipulation example</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
@@ -14,19 +15,23 @@
     </header>
 
     <section>
-        <label>First Name:</label>
-        <input id="firstname" type="text">
-        <label>Last Name:</label>
-        <input id="lastname" type="text">
-        <label>Program Name:</label>
-        <input id="progname" type="text">
-        <button>Submit</button>
+        <div id="form-layout">
+                <label>First Name:</label>
+                <input id="firstname" type="text">
+                <label>Last Name:</label>
+                <input id="lastname" type="text">
+                <label>Program Name:</label>
+                <input id="progname" type="text">
+        </div>
+        <button id="submit-btn">Submit</button>
     </section>
 
     <section>
         <h2>Enrolled students</h2>
-        <ul>Sudents Enrolled in CIT</ul>
-        <ul>Sudents Enrolled in CST</ul>
+        <div id="enroll-layout">
+            <ul>Sudents Enrolled in CIT</ul>
+            <ul>Sudents Enrolled in CST</ul>
+        </div>
     </section>
 
 </body>
